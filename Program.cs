@@ -35,8 +35,7 @@ app.MapGet("/products", () =>
 
 app.MapPost("/products", () =>
 {
-   
-   var commandHandler = new CreateProductCommandHandler();
+
 })
 .WithName("PostProducts")
 .WithOpenApi();
